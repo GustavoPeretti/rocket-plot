@@ -52,7 +52,7 @@ function send() {
     }
 
     for (let x = 0; x <= (d + 0.05); x += 0.05) {
-        drawPx(x * 5 , findY(f[0], f[1], x) * 5);
+        drawPx(x * 9 , findY(f[0], f[1], x) * 9);
     }
 }
 
