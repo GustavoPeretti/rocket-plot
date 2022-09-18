@@ -4,9 +4,6 @@ function send() {
     const d = parseFloat(document.getElementById('dist').value);
     const a = parseFloat(document.getElementById('angle').value);
 
-    console.log(d);
-    console.log(a);
-
     /* Height and Speed */
 
     const g = 9.8;
