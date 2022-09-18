@@ -46,8 +46,9 @@ canvas {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
-#alt {
+#alt, #fun {
     padding: 1em;
     background-color: white;
     border: black solid 2px;

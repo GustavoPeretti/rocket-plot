@@ -38,6 +38,8 @@ function send() {
         return ((a * x ** 2) + (b * x))
     }
 
+    document.getElementById('fun').innerHTML = 'Função: f(x) = ' + f[0] + 'x² + ' + f[1] + 'x'
+
     /* Canvas */
 
     var canvas = document.getElementById('canvas');
